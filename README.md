@@ -5,4 +5,8 @@ Waveshare provides a good sample application in Python to create any size propor
 
 For each font size a set of two files is created using two Python programs. One file has the bitmap information for each character and the other contains the width of each proportionally spaced character. So when characters are displayed the C/C++ program reads offsets into each file for the character being displayed and draws them on the e-paper display. The Python program uses the PIL library and freefont files to generate the character bitmaps and widths. 
 
-The Python programs print the text information contained in the font files to the command line so output can be piped to the appropriate output file. This repository contains the proportional font files for 18, 24, 32 and 64 point sizes.
+The Python programs print the text information contained in the font files to the command line so output can be piped to the appropriate output file. This repository contains the proportional font files for 20, 24, 32 and 64 point sizes.
+
+To create a set of fies for a different font size, edit the two Python files to point to the appropriate font files.
+
+This was created and run on a Raspberry Pi 3.
